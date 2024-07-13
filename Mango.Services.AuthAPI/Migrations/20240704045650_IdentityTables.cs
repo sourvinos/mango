@@ -1,11 +1,9 @@
-﻿using System;
-using Microsoft.EntityFrameworkCore.Metadata;
+﻿using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace Mango.Services.AuthAPI.Migrations
-{
+namespace Mango.Services.AuthAPI.Migrations {
     /// <inheritdoc />
     public partial class IdentityTables : Migration
     {
