@@ -2,6 +2,8 @@ using Mango.Services.AuthAPI;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
+// https://localhost:7001/swagger/index.html
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddDbContext<AppDbContext>(option => {
