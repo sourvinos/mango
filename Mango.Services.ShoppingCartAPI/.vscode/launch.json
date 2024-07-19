@@ -2,11 +2,11 @@
     "version": "2.0.0",
     "configurations": [
         {
-            "name": "AuthAPI",
+            "name": "ShoppingCartAPI",
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
-            "program": "${workspaceFolder}/bin/Debug/net8.0/Mango.Services.AuthAPI.dll",
+            "program": "${workspaceFolder}/bin/Debug/net8.0/Mango.Services.ShoppingCartAPI.dll",
             "args": [],
             "cwd": "${workspaceFolder}",
             "stopAtEntry": false,
